@@ -6,10 +6,12 @@
 
 body {
     background-color: #d9dcd6;
+    margin: 40;
 }
 
 .header {
     padding: 20px;
+    text-align: center;
     margin-left: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -18,8 +20,7 @@ body {
  
 .header h1 {
     display: inline-block;
-    font-size: 45px;
-    
+    font-size: 45px;   
 }
 
 .header h1 .seo {
@@ -28,18 +29,19 @@ body {
 
 .header div {
     padding-top: 15px;
-    margin-right: 10px;
+    margin-right: 0px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
 }
 
 .header div ul {
-    list-style-type: none;
+    */ no list points */
+    list-style-type: none ;
 }
 
 .header div ul li {
-    display: inline-flex;
+    display: inline-block;
     margin-left: 10px;
     text-wrap: center;
 }
@@ -52,6 +54,7 @@ a {
 
 p { 
     font-size: 17px;
+    display: flex;  
 }
 
 .hero {
@@ -70,13 +73,13 @@ p {
 
 .float-right {
     float: right;
-    margin-left: 50px;
+    margin-left: 100px;
 }
  */body*/
 .content {
-    width: 75%;
+    width: 120%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .benefits {
@@ -142,9 +145,9 @@ p {
 }
 
 .search-engine-optimization {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding: 50px;
-    height: 300px;
+    height: 250px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
